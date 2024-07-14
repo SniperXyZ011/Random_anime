@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Anime</title>
+    <link rel="stylesheet" href="styles\style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Getting Bored🙃 How about reading a manga</h1>
+        </header>
+        <article class="mangaCover">
+            <img src="https://uploads.mangadex.org/covers/<%= locals.mangaId %>/<%= locals.fileName %>" alt="Manga Cover">
+            <h2 class="mangaName"><%= key %></h2>
+        </article>
+
+        <button id="refreshButton">Refresh</button>
+    </main>
+
+    <script>
+        document.getElementById('refreshButton').addEventListener('click', () => {
+            location.reload();
+        })
+    </script>
+
+</body>
+</html>

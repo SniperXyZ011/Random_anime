@@ -1,0 +1,17 @@
+{
+  "name": "capston_api",
+  "version": "1.0.0",
+  "description": "Creating this project to get a better understanding of APIs ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shyam Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}

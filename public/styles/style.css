@@ -1,0 +1,132 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #1a1a1a;
+    color: white ;
+}
+
+main {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 2rem;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ff9800;
+}
+
+header {
+    width: 100%;
+    background-color: #212121;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.mangaCover {
+    max-width: 90vw;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.mangaCover img {
+    max-width: 50%;
+    max-height: 70%;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0, 4px, 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.mangaCover img:hover{
+    transform: scale(1.05);
+}
+
+.mangaName {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+#refreshButton {
+    background-color: #ff9800;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#refreshButton:hover{
+    background-color: #f57c00;
+}
+
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+#main {
+    height: 100vh;
+    width: 100%;
+    background-color:black;
+}
+
+nav {
+    height: 12vh;
+    width: 100%;
+    color: rgb(239, 237, 96);
+    background-color: rgb(126, 123, 138);
+
+}
+
+nav h1 {
+    font-size: 45px;
+    text-align: center;
+    padding-top: 18px;
+    
+}
+
+.mangaCover {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mangaCover img {
+   max-height: 60vh;
+    max-width: 90%;
+    object-fit: contain;
+}
+.mangaName {
+    font-size: 30px;
+    text-align: center;
+} */
+
