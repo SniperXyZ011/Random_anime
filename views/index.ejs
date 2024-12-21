@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Anime</title>
     <link rel="stylesheet" href="styles\style.css">
+    <!-- <script src="../index.js"></script> -->
 </head>
 <body>
     <main>
@@ -13,10 +14,10 @@
         </header>
         <article class="mangaCover">
             <img src="https://uploads.mangadex.org/covers/<%= locals.mangaId %>/<%= locals.fileName %>" alt="Manga Cover">
-            <h2 class="mangaName"><%= key %></h2>
         </article>
-
+        <h2 class="mangaName"><%= key %></h2>
         <button id="refreshButton">Refresh</button>
+        <button><a href="/chapters?mangaId=<%= locals.mangaId %>"></a>Chapters</button>
     </main>
 
     <script>
@@ -24,6 +25,7 @@
             location.reload();
         })
     </script>
+
 
 </body>
 </html>
